@@ -1,0 +1,18 @@
+{
+  "name": "fluxunit",
+  "version": "1.0.0",
+  "description": "This package converts units of measurement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "convert",
+    "unit",
+    "temperature",
+    "node",
+    "npm"
+  ],
+  "author": "Ryan",
+  "license": "MIT"
+}
