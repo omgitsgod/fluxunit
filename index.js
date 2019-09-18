@@ -1,9 +1,9 @@
-const toF = (temp) => {
+const c2F = (temp) => {
   return (temp * 1.8) + 32;
 }
 
-const toC = (temp) => {
+const f2C = (temp) => {
   return (temp - 32) / 1.8;
 }
 
-module.exports = { toF, toC };
+module.exports = { c2F, f2C };
