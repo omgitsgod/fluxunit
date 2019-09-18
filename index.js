@@ -37,4 +37,61 @@ const temp = {
   }
 };
 
+const dist = {
+  cm2FT: (dist) => {
+    return dist/30.48;
+  },
+  cm2IN: (dist) => {
+    return dist/2.54;
+  },
+  cm2MM: (dist) => {
+    return dist * 10;
+  },
+  ft2CM: (dist) => {
+    return dist * 30.48;
+  },
+  ft2MM: (dist) => {
+    return dist * 304.8;
+  },
+  ft2IN: (dist) => {
+    return dist * 12;
+  },
+  ft2M: (dist) => {
+    return dist * 0.3048;
+  },
+  in2CM: (dist) => {
+    return dist * 2.54;
+  },
+  in2FT: (dist) => {
+    return dist / 12;
+  },
+  in2M: (dist) => {
+    return dist * 0.0254;
+  },
+  in2MM: (dist) => {
+    return dist * 25.4;
+  },
+  km2MI: (dist) => {
+    return dist/1.609344;
+  },
+  m2FT: (dist) => {
+    return dist/0.3048;
+  },
+  m2IN: (dist) => {
+    return dist/0.0254;
+  },
+  mi2KM: (dist) => {
+    return dist * 1.609344;
+  },
+  mm2CM: (dist) => {
+    return dist/10;
+  },
+  mm2FT: (dist) => {
+    return dist/304.8;
+  },
+  mm2IN: (dist) => {
+    return dist/25.4;
+  }
+},
+
 module.exports = { temp };
