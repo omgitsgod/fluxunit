@@ -33,8 +33,8 @@ const temp = {
     return temp - 459.67;
   },
   r2K: (temp) => {
-    return temp * 5/9
+    return temp * 5/9;
   }
-}
+};
 
 module.exports = { temp };
