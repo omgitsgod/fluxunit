@@ -92,6 +92,75 @@ const dist = {
   mm2IN: (dist) => {
     return dist/25.4;
   }
-},
+};
 
-module.exports = { temp };
+const mass = {
+  g2KG: (mass) => {
+    return mass/1000;
+  },
+  g2MG: (mass) => {
+    return mass * 1000;
+  },
+  g2O: (mass) => {
+    return mass/28.34952;
+  },
+  g2P: (mass) => {
+    return mass/453.59237;
+  },
+  kg2G: (mass) => {
+    return mass * 1000;
+  },
+  kg2MG: (mass) => {
+    return mass * 1000000;
+  },
+  kg2O: (mass) => {
+    return mass/0.02834952;
+  },
+  kg2P: (mass) => {
+    return mass/0.45359237;
+  },
+  kg2T: (mass) => {
+    return mass/1000;
+  },
+  mg2G: (mass) => {
+    return mass/1000;
+  },
+  mg2KG: (mass) => {
+    return mass/1000000;
+  },
+  o2G: (mass) => {
+    return mass * 28.34952;
+  },
+  o2KG: (mass) => {
+    return mass * 0.02834952;
+  },
+  o2P: (mass) => {
+    return mass/16;
+  },
+  p2G: (mass) => {
+    return mass * 453.59237;
+  },
+  p2KG: (mass) => {
+    return mass * 0.45359237;
+  },
+  p2O: (mass) => {
+    return mass * 16;
+  },
+  p2S: (mass) => {
+    return mass/14;
+  },
+  p2T: (mass) => {
+    return mass * 0.00045359237;
+  },
+  s2P: (mass) => {
+    return mass * 14;
+  },
+  t2KG: (mass) => {
+    return mass * 1000;
+  },
+  t2P: (mass) => {
+    return mass/0.00045359237;
+  }
+};
+
+module.exports = { temp, dist, mass };

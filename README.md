@@ -130,3 +130,87 @@ dist.mm2FT(609.6); // 2
 ```javascript
 dist.mm2IN(609.6); // 24
 ```
+# Mass:
+```javascript
+const { mass } = require('fluxunit');
+```
+## Convert Grams to Kilograms:
+```javascript
+mass.g2KG(1000); // 1
+```
+## Convert Grams to Milligrams:
+```javascript
+mass.g2MG(4); // 4000
+```
+## Convert Grams to Ounces:
+```javascript
+mass.g2O(5); // 0.17636982918934785
+```
+## Convert Grams to Pounds:
+```javascript
+mass.g2O(5); // 0.011023113109243879
+```
+## Convert Kilograms to Grams:
+```javascript
+mass.kg2G(2); // 2000
+```
+## Convert Kilograms to Milligrams:
+```javascript
+mass.kg2MG(.5); // 500000
+```
+## Convert Kilograms to Pounds:
+```javascript
+mass.kg2P(10); // 22.046226218487757
+```
+## Convert Kilograms to Tons:
+```javascript
+mass.kg2T(100); // 0.1
+```
+## Convert Milligrams to Grams:
+```javascript
+mass.mg2G(10); // 0.01
+```
+## Convert Milligrams to Kilograms:
+```javascript
+mass.mg2KG(1000); // 0.001
+```
+## Convert Ounces to Grams:
+```javascript
+mass.o2G(7); // 0.24691776086508696
+```
+## Convert Ounces to Kilograms:
+```javascript
+mass.o2KG(3); // 0.08504856
+```
+## Convert Ounces to Pounds:
+```javascript
+mass.o2P(80); // 5
+```
+## Convert Pounds to Grams:
+```javascript
+mass.p2G(.003); // 1.3607771100000001
+```
+## Convert Pounds to Kilograms:
+```javascript
+mass.p2KG(20); // 9.071847400000001
+```
+## Convert Pounds to Ounces:
+```javascript
+mass.p2O(20); // 320
+```
+## Convert Pounds to Stones:
+```javascript
+mass.p2S(1); // 14
+```
+## Convert Pounds to Tons:
+```javascript
+mass.p2T(7); // 0.00317514659
+```
+## Convert Tons to Kilograms:
+```javascript
+mass.t2KG(1); // 1000
+```
+## Convert Tons to Pounds:
+```javascript
+mass.t2P(.005); // 11.02311310924388
+```
